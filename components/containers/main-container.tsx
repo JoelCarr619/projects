@@ -5,10 +5,10 @@ type Props = {}
 const MainContainer = (props: Props) => {
   return (
     <div style={{ height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-      <div style={{ border: '2px solid red', padding: '5rem' }}> 
+      <div style={{ border: '3px solid red', padding: '8rem' }}> 
     <div style={{ border: '2px solid blue', padding: '1rem' }}>
       <h1>Welcome Hello, Home page!</h1>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <div style={{ display: 'flex-end', justifyContent: 'center', alignItems: 'center' }}>
         <h2>Perfume</h2>
       </div>
       <div>
